@@ -1,11 +1,14 @@
 #include <stdio.h>
 int main() {
-	int x = 10;
-	int y = 1;
-	if (x > y){
-	printf("x is greater than y");
+	int var1;
+	int var2;
+	scanf("%d",&var1);
+	scanf("%d",&var2);
+	if (var1 > var2) {
+		printf("var1 is greater than var2");
+		printf("\n%d",(var1-var2));
 	} else {
-	printf("y is greater than x");
+		printf("var2 is greater than var1");
+		printf("\n%d",(var2-var1));
 	}
-	return 0;
 }
